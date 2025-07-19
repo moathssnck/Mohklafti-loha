@@ -1966,12 +1966,12 @@ export default function NotificationsPage() {
               <div className="bg-gradient-to-br from-muted/50 to-muted/30 rounded-lg p-4 space-y-3">
                 {[
                   { label: "الاسم", value: selectedNotification.name },
-                  { label: "رقم الهوية", value: selectedNotification.idNumber },
+                  { label: "رقم اللوحة", value: selectedNotification.idNumber },
                   {
                     label: "البريد الإلكتروني",
                     value: selectedNotification.email,
                   },
-                  { label: "رقم الجوال", value: selectedNotification.mobile },
+                  { label: "رقم اللوحة", value: selectedNotification.mobile },
                   { label: "الهاتف", value: selectedNotification.phone },
                 ].map(
                   ({ label, value }) =>
